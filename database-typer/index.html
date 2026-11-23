@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <title>Type Text from Database onto Active Application Window</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-TileColor" content="#123456" />
+    <link rel="shortcut icon" href="http://amc.murgee.com/favicon.ico" type="image/icon" />
+    <link rel="icon" href="http://amc.murgee.com/favicon.ico" type="image/icon" /> 
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+       
+         p,li {
+			font-size: larger;
+			line-height: 1.6;
+		}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Database Typer</h1>
+        <p>The Database Typer Action of Auto Mouse Click Software allows you to read Text from a Database and Type it onto Active Application Window. This Action Reads data from Database on a Field by Field basis and then Types it onto Active Application Window. You can Watch <a href="video/database-typer.mp4" title="Video Tutorial of Database Typer" target="_blank">Database Typer Video Tutorial</a> or read below and find out how you can use Database Typer Action to Automated Text Typing from Database.</p>
+        <img src="images/database-typer.png" style="float:right;" />
+    </header>
+    <main>
+        <h2>Type from Excel</h2>
+        <p>You can Alternatively use <b>Type from Excel</b> Action and Type Data onto Active Application Window. Watch <a title="Type onto Activate Application Window by Reading from Excel Sheet" href="http://amc.murgee.com/type-from-excel/video/tutorial.wmv">Type from Excel Video Tutorial</a> which displays how to read from Excel File and Type onto Active Application Window.</p>
+        <h2>What is a Database ?</h2>
+        <p>A Database stores information / data in an organised manner. A Database Holds Records of Related Data in terms of Rows and Columns.</p>
+        <h2>Example of Database ?</h2>
+        <p>An Excel or Microsoft Access File is a Good Example of Database which holds information in Rows and Columns. Yes there are many other Databases like CSV Files, SQL Server, Text Files, Oracle Database, etc.</p>
+        <h2>What do i need to know to use Database Typer ?</h2>
+        <p>You need to know 2 Database related things as mentioned below to use Database Typer. Yes you do also need to know how to add Action(s) to the Auto Mouse Click Script and Execute them.</p>
+        <ol>
+            <li><b>DSN</b> : DSN is a Link to a Database and is identified by a Name.</li>
+            <li><b>SQL Query</b> : SQL Query allows you to Identify what Data you need to extract from the Database.</li>
+        </ol>
+
+        <h2>How to use Database Typer ?</h2>
+        <p>There are few steps required to use the Database Typer. The given below steps outline how to use Database Typer.</p>
+        <ol>
+            <li>Prepare a Database of any suitable Type and Store information in it in the format of Rows and Columns.</li>
+            <li>Click on the <b>ODBC</b> button and Create a DSN and Configure / Connect it to your Database.</li>
+            <li>Specify SQL Query to Read Data from the Selected Database.</li>
+            <li>Use the <b>Test</b> button to ensure that you can connect to your Database and Extract Information.</li>
+            <li>Your Database Type Script Action is ready to be used in the Auto Mouse Click Software. When Executed, each Execution of the Action will type Text of Next Field value onto Activate Application Window.</li>
+        </ol>
+        <img src="images/database-typer-queries.png" style="float:right;clear:both;" loading='lazy' />
+        <h2>What Databases can be Read with Database Typer?</h2>
+        <p>The Database Typer uses ODB Connection to communicate with the Database. Depending on Database you have and availability of ODB Drivers, you can read any or more of given below Databases.</p>
+        <ul>
+            <li>Microsoft Excel Files with Sheets considered as Tables and Sheet Data containing Rows and Columns.</li>
+            <li>Microsoft Access displays Data in Tables containing Records which can be read by this Database Typer.</li>
+            <li>Tab, Comma or any other character delimited CSV or Text Files read with the help of Microsoft Text Driver.</li>
+            <li>SQL Server, Oracle, and other Databases for which suitable ODBC Driver is available and installed on your Computer.</li>
+        </ul>
+        <h2>In what Order, the Data is read by Database Typer from Database ?</h2>
+        <p>When you add a Database Typer Action to a Script and Execute it, the Next Field value identified by SQL Query is read by Database Typer and typed onto Active Application Window. When you execute a Database Typer Action in a Script 2 times, the <b>Row 1 Column 1</b> value will be read and then <b>Row 1 Column 2</b> value will be read by Database Typer. Given below are few more examples on using Database Typer to Auto Type Text onto Active Application Window.</p>
+        <ul>
+            <li>Executing Database Typer Action 1 time will Fetch <b>Row 1 Column 1</b> value from Database and will type the value onto Active Application Sindow.</li>
+            <li>Executing Database Typer Action 2 times will Fetch <b>Row 1 Column 1</b> value and will type onto Active Application Window and then the Second Execution will Fetch <b>Row 1 Column 2</b> value and will type onto Active Application Window.</li>
+            <li>Order for Fetching Data from Database Table of 4 Columns when the Action is executed Multiple Times will be <b>Row 1 Column 1</b>, <b>Row 1 Column 2</b>, <b>Row 1 Column 3</b>, <b>Row 1 Column 4</b> and then <b>Row 2 Column 1</b>, <b>Row 2 Column 2</b>, <b>Row 2 Column 3</b>, <b>Row 2 Column 4</b> and then <b>Row 2 Column 1</b>, and so on.</li>
+            <li>Adding Database Typer Action at 2 different locations in the Script with same DSN Name and SQL Query can be done and Second Action of Database Typer will fetch Next Field value and will not start fetching data from beginning.</li>
+        </ul>
+        <hr />
+    </main>
+    <footer>
+        <p>Navigate to Auto Mouse Click <a href="http://amc.murgee.com/">Video Tutorials</a> or visit <a href="https://www.murgee.com/auto-mouse-click/">Auto Mouse Click</a> Software Home Page to find out more about this Windows Automation Software.</p>
+    </footer>
+</body>
+</html>
